@@ -1,0 +1,7 @@
+[gd_resource type="ShaderMaterial" load_steps=2 format=3 uid="uid://c5x6v74h1ld4k"]
+
+[ext_resource type="Shader" path="res://materials/shaders/canvas_item/color_texture.gdshader" id="1_kixar"]
+
+[resource]
+shader = ExtResource("1_kixar")
+shader_parameter/color = Color(0, 0, 0, 1)

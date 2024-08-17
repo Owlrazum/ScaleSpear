@@ -1,0 +1,7 @@
+[gd_resource type="ShaderMaterial" load_steps=2 format=3 uid="uid://dttslh5acx27j"]
+
+[ext_resource type="Shader" path="res://materials/shaders/canvas_item/circle.gdshader" id="1_yqll2"]
+
+[resource]
+shader = ExtResource("1_yqll2")
+shader_parameter/aa = 0.415

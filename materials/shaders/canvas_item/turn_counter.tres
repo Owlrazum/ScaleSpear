@@ -1,0 +1,10 @@
+[gd_resource type="ShaderMaterial" load_steps=2 format=3 uid="uid://c5snhdex70hve"]
+
+[ext_resource type="Shader" path="res://materials/shaders/canvas_item/turn_counter.gdshader" id="1_lya61"]
+
+[resource]
+shader = ExtResource("1_lya61")
+shader_parameter/level = 1.0
+shader_parameter/levelsAmount = 3.0
+shader_parameter/sandLength = 0.0
+shader_parameter/aa = 0.1

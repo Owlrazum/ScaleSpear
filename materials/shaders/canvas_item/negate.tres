@@ -1,0 +1,6 @@
+[gd_resource type="ShaderMaterial" load_steps=2 format=3 uid="uid://cto3yfm10wivk"]
+
+[ext_resource type="Shader" path="res://materials/shaders/canvas_item/negate.gdshader" id="1_fctog"]
+
+[resource]
+shader = ExtResource("1_fctog")

@@ -1,0 +1,14 @@
+[gd_resource type="ShaderMaterial" load_steps=2 format=3 uid="uid://cm3hqkdomaevo"]
+
+[ext_resource type="Shader" path="res://materials/shaders/canvas_item/health.gdshader" id="1_jik74"]
+
+[resource]
+shader = ExtResource("1_jik74")
+shader_parameter/freq = 1.0
+shader_parameter/speed = 2.0
+shader_parameter/level = 0.874
+shader_parameter/amplitude = 0.1
+shader_parameter/aa = 0.03
+shader_parameter/levels_amount = 3.0
+shader_parameter/markLength = 0.025
+shader_parameter/sandLength = 0.6

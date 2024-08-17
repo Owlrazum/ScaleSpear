@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://sc4jnt8yp38h"]
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_pvow5"]
+size = Vector2(0.1, 0.1)
+center_offset = Vector3(0.05, 0, 0)
+
+[node name="Node3D" type="MeshInstance3D"]
+transform = Transform3D(20, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+mesh = SubResource("PlaneMesh_pvow5")

@@ -1,0 +1,24 @@
+[gd_scene load_steps=5 format=3 uid="uid://d1sbhynsoijd7"]
+
+[ext_resource type="Script" path="res://source/gameplay/test.gd" id="1_kuqjr"]
+[ext_resource type="Script" path="res://source/gameplay/camera.gd" id="2_eu2ks"]
+[ext_resource type="Material" uid="uid://deha0lb7f6vdu" path="res://materials/shaders/spatial/unlit.tres" id="2_s31dr"]
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_gkrdy"]
+
+[node name="Node3D" type="Node3D" node_paths=PackedStringArray("grid_node", "camera")]
+script = ExtResource("1_kuqjr")
+grid_node = NodePath("Grid")
+camera = NodePath("Camera")
+dims = 6
+cell_size = 4
+cube_face_mat = ExtResource("2_s31dr")
+
+[node name="Camera" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.707107, 0.707107, 0, -0.707107, 0.707107, 0, 5, 0)
+script = ExtResource("2_eu2ks")
+
+[node name="Grid" type="MeshInstance3D" parent="."]
+mesh = SubResource("ArrayMesh_gkrdy")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
